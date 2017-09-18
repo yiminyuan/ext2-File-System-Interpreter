@@ -32,6 +32,7 @@ $ ./interpreter foo.csv
 6. blocks per group
 7. i-nodes per group
 8. first non-reserved i-node
+
 **Group summary**
 1. GROUP
 2. group number
@@ -42,12 +43,15 @@ $ ./interpreter foo.csv
 7. block number of free block bitmap for this group
 8. block number of free i-node bitmap for this group
 9. block number of first block of i-nodes in this group
+
 **Free block entries**
 1. BFREE
 2. number of the free block
+
 **Free I-node entries**
 1. IFREE
 2. number of the free I-node
+
 **I-node summary**
 1. INODE
 2. inode number
@@ -61,6 +65,7 @@ $ ./interpreter foo.csv
 10. time of last access
 11. file size
 12. number of blocks
+
 **Directory entries**
 1. DIRENT
 2. parent inode number
@@ -69,6 +74,7 @@ $ ./interpreter foo.csv
 5. entry length
 6. name length
 7. name
+
 **Indirect block references**
 1. INDIRECT
 2. I-node number of the owning file
