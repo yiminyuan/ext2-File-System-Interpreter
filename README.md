@@ -22,3 +22,13 @@ $ ./analyst foo.img > foo.csv
 ```
 $ ./interpreter foo.csv
 ```
+### CSV Summaries
+**Superblock summary**
+1. SUPERBLOCK
+2. total number of blocks
+3. total number of i-nodes
+4. block size
+5. i-node size
+6. blocks per group
+7. i-nodes per group
+8. first non-reserved i-node
